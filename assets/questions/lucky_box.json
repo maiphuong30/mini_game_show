@@ -1,0 +1,45 @@
+
+[
+  {
+    "id": 1,
+    "title": "Hộp quà bí mật",
+    "type": "bonus",
+    "content": "Bạn nhận được 20 điểm!",
+    "points": 20
+  },
+  {
+    "id": 2,
+    "title": "Thử thách nhảy múa",
+    "type": "challenge",
+    "content": "Hãy nhảy một điệu nhảy vui nhộn trong 10 giây!",
+    "points": 10
+  },
+  {
+    "id": 3,
+    "title": "Nhân đôi may mắn",
+    "type": "bonus",
+    "content": "Nhận thêm 30 điểm!",
+    "points": 30
+  },
+  {
+    "id": 4,
+    "title": "Đố vui",
+    "type": "challenge",
+    "content": "Hãy kể tên 3 loại trái cây trong 5 giây!",
+    "points": 10
+  },
+  {
+    "id": 5,
+    "title": "Hộp bí ẩn",
+    "type": "mystery",
+    "content": "Quản trò quyết định phần thưởng!",
+    "points": 0
+  },
+  {
+    "id": 6,
+    "title": "Siêu may mắn",
+    "type": "bonus",
+    "content": "Bạn nhận được 50 điểm!",
+    "points": 50
+  }
+]

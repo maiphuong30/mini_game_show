@@ -1,0 +1,33 @@
+
+[
+  {
+    "id": 1,
+    "image": "assets/images/rebus/mat_ma.jpg",
+    "answer": "Mật mã",
+    "points": 20
+  },
+  {
+    "id": 2,
+    "image": "assets/images/rebus/ca_tinh.jpg",
+    "answer": "Cá tính",
+    "points": 10
+  },
+  {
+    "id": 3,
+    "image": "assets/images/rebus/bao_cao.jpg",
+    "answer": "Báo cáo",
+    "points": 20
+  },
+  {
+    "id": 4,
+    "image": "assets/images/rebus/o_to.jpg",
+    "answer": "Ô tô",
+    "points": 10
+  },
+  {
+    "id": 5,
+    "image": "assets/images/rebus/cau_chi.jpg",
+    "answer": "Cầu chì",
+    "points": 10
+  }
+]
