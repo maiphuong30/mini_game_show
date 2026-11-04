@@ -1,0 +1,171 @@
+
+[
+  {
+    "id": 1,
+    "question": "Bộ phận nào của cây hút nước từ đất?",
+    "image": null,
+    "answers": [
+      "Hoa",
+      "Lá cây",
+      "Rễ cây",
+      "Thân cây"
+    ],
+    "correctAnswer": "Rễ cây",
+    "points": 10
+  },
+  {
+    "id": 2,
+    "question": "Loài vật nào thường được gọi là chúa sơn lâm?",
+    "image": null,
+    "answers": [
+      "Voi",
+      "Hổ",
+      "Khỉ",
+      "Gấu trúc"
+    ],
+    "correctAnswer": "Hổ",
+    "points": 10,
+    "task": "Kể tên 3 con vật cùng họ nhà Hổ",
+    "bonusPoints": 20
+  },
+  {
+    "id": 3,
+    "question": "Đâu là thủ đô của Việt Nam?",
+    "image": "",
+    "answers": [
+      "Hà Nội",
+      "Huế",
+      "Đà Nẵng",
+      "TP. Hồ Chí Minh"
+    ],
+    "correctAnswer": "Hà Nội",
+    "points": 10,
+    "task": "Kể tên 3 địa danh nổi tiếng ở Hà Nội.",
+    "bonusPoints": 20
+  },
+  {
+    "id": 4,
+    "question": "Hành tinh chúng ta đang sống tên là gì?",
+    "image": null,
+    "answers": [
+      "Sao Hỏa",
+      "Sao Kim",
+      "Trái Đất",
+      "Sao Mộc"
+    ],
+    "correctAnswer": "Trái Đất",
+    "points": 10
+  },
+  {
+    "id": 5,
+    "question": "Đây là loại quả gì?",
+    "image": "assets/images/quiz/mang_cut.jpg",
+    "answers": [
+      "Măng cụt",
+      "Chôm chôm",
+      "Vải",
+      "Nhãn"
+    ],
+    "correctAnswer": "Măng cụt",
+    "points": 20
+  },
+  {
+    "id": 6,
+    "question": "Con vật nào là động vật có vú?",
+    "image": null,
+    "answers": [
+      "Cá vàng",
+      "Ếch",
+      "Cá heo",
+      "Gà"
+    ],
+    "correctAnswer": "Cá heo",
+    "points": 10
+  },
+  {
+    "id": 7,
+    "question": "Màu nào tạo thành khi trộn đỏ và vàng?",
+    "image": null,
+    "answers": [
+      "Xanh lá",
+      "Tím",
+      "Xanh dương",
+      "Cam"
+    ],
+    "correctAnswer": "Cam",
+    "points": 10
+  },
+  {
+  "id": 8,
+  "question": "Đây là con gì?",
+  "image": "assets/images/quiz/gau_koala.jpg",
+  "answers": [
+    "Kangaroos",
+    "Gấu túi",
+    "Gấu mèo",
+    "Lười"
+  ],
+  "correctAnswer": "Gấu túi",
+  "points": 20
+  },
+  {
+  "id": 9,
+  "question": "Điền vào chỗ trống: Uống nước nhớ ... ",
+  "answers": [
+    "Kẻ trồng cây",
+    "Trả tiền",
+    "Biển",
+    "Nguồn"
+  ],
+  "correctAnswer": "Nguồn",
+  "points": 20
+  },
+  {
+    "id": 10,
+    "question": "Từ nào có nghĩa là con bạch tuộc?",
+    "answers": [
+      "Dolphin",
+      "Octopus",
+      "Penguin",
+      "Turtle"
+    ],
+    "correctAnswer": "Octopus",
+    "points": 20
+  },
+  {
+    "id": 11,
+    "question": "Con diều lớn nhất thế giới The Hope thuộc loại diều nào?",
+    "answers": [
+      "Diều rồng khung tre",
+      "Diều khí động học",
+      "Diều thể thao Delta nhiều dây",
+      "Diều sáo"
+    ],
+    "correctAnswer": "Diều khí động học",
+    "points": 20
+  },
+  {
+  "id": 11,
+  "question": "Từ tiếng Anh nào có nghĩa là \"Con voi\"?",
+  "answers": [
+    "Elephant",
+    "Tiger",
+    "Monkey",
+    "Rabbit"
+  ],
+  "correctAnswer": "Elephant",
+  "points": 20
+  },
+  {
+    "id": 12,
+    "question": "Tên nào sau đây KHÔNG thuộc bộ quyền căn bản Heian (Bình An) của Karate?",
+    "answers": [
+      "Heian Shodan",
+      "Heian Nidan",
+      "Heian Rokudan",
+      "Heian Sandan"
+    ],
+    "correctAnswer": "Elephant",
+    "points": 20
+  }
+]

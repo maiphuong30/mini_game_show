@@ -1,0 +1,45 @@
+
+[
+  {
+    "keyword": "VODICH",
+    "rows": [
+      {
+        "clue": "Hiện tượng thiên nhiên có nhiều màu sắc xuất hiện trên bầu trời sau cơn mưa?",
+        "answer": "CAUVONG",
+        "keywordIndex": 3,
+        "points": 20
+      },
+      {
+        "clue": "Vật hình tròn được dùng để đá, chuyền hoặc ném trong thể thao?",
+        "answer": "BONG",
+        "keywordIndex": 1,
+        "points": 20
+      },
+      {
+        "clue": "Vật dụng treo trên tường hoặc đặt trên bàn, dùng để xem giờ?",
+        "answer": "DONGHO",
+        "keywordIndex": 0,
+        "points": 20
+      },
+      {
+        "clue": "Loại đá quý rất cứng, thường được dùng làm trang sức?",
+        "answer": "KIMCUONG",
+        "keywordIndex": 1,
+        "points": 20
+      },
+      {
+        "clue": "Động vật sống dưới nước, thở bằng mang?",
+        "answer": "CA",
+        "keywordIndex": 0,
+        "points": 20
+      },
+      {
+        "clue": "Con vật nuôi thường kêu ụt ịt?",
+        "answer": "HEO",
+        "keywordIndex": 0,
+        "points": 20
+      }
+    ],
+    "keywordPoints": 50
+  }
+]
