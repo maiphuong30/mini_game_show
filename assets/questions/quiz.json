@@ -2,19 +2,6 @@
 [
   {
     "id": 1,
-    "question": "Loài vật nào thường được gọi là chúa sơn lâm?",
-    "image": null,
-    "answers": [
-      "Voi",
-      "Hổ",
-      "Khỉ",
-      "Gấu trúc"
-    ],
-    "correctAnswer": "Hổ",
-    "points": 10
-  },
-  {
-    "id": 2,
     "question": "Bộ phận nào của cây hút nước từ đất?",
     "image": null,
     "answers": [
@@ -25,6 +12,21 @@
     ],
     "correctAnswer": "Rễ cây",
     "points": 10
+  },
+  {
+    "id": 2,
+    "question": "Loài vật nào thường được gọi là chúa sơn lâm?",
+    "image": null,
+    "answers": [
+      "Voi",
+      "Hổ",
+      "Khỉ",
+      "Gấu trúc"
+    ],
+    "correctAnswer": "Hổ",
+    "points": 10,
+    "task": "Kể tên 3 con vật cùng họ nhà Hổ",
+    "bonusPoints": 20
   },
   {
     "id": 3,
@@ -52,9 +54,7 @@
       "Sao Mộc"
     ],
     "correctAnswer": "Trái Đất",
-    "points": 10,
-    "task": "Kể tên 3 tên hành tinh.",
-    "bonusPoints": 20
+    "points": 10
   },
   {
     "id": 5,
@@ -119,5 +119,53 @@
   ],
   "correctAnswer": "Nguồn",
   "points": 20
-}
+  },
+  {
+    "id": 10,
+    "question": "Từ nào có nghĩa là con bạch tuộc?",
+    "answers": [
+      "Dolphin",
+      "Octopus",
+      "Penguin",
+      "Turtle"
+    ],
+    "correctAnswer": "Octopus",
+    "points": 20
+  },
+  {
+    "id": 11,
+    "question": "Con diều lớn nhất thế giới The Hope thuộc loại diều nào?",
+    "answers": [
+      "Diều rồng khung tre",
+      "Diều khí động học",
+      "Diều thể thao Delta nhiều dây",
+      "Diều sáo"
+    ],
+    "correctAnswer": "Diều khí động học",
+    "points": 20
+  },
+  {
+  "id": 11,
+  "question": "Từ tiếng Anh nào có nghĩa là \"Con voi\"?",
+  "answers": [
+    "Elephant",
+    "Tiger",
+    "Monkey",
+    "Rabbit"
+  ],
+  "correctAnswer": "Elephant",
+  "points": 20
+  },
+  {
+    "id": 12,
+    "question": "Tên nào sau đây KHÔNG thuộc bộ quyền căn bản Heian (Bình An) của Karate?",
+    "answers": [
+      "Heian Shodan",
+      "Heian Nidan",
+      "Heian Rokudan",
+      "Heian Sandan"
+    ],
+    "correctAnswer": "Elephant",
+    "points": 20
+  }
 ]

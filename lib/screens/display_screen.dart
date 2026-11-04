@@ -46,7 +46,7 @@ class DisplayScreen extends StatelessWidget {
             child: Column(
               children: [
                 const Text(
-                  '🎉 MINI GAME SHOW 🎉',
+                  '🎉 ĐẤU TRƯỜNG TRI THỨC 🎉',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
