@@ -9,9 +9,9 @@
   },
   {
     "id": 2,
-    "title": "Thử thách nhảy múa",
+    "title": "Thử thách thụt xì dầu",
     "type": "challenge",
-    "content": "Hãy nhảy một điệu nhảy vui nhộn trong 10 giây!",
+    "content": "Cả đội phạt thụt dầu 5 cái, hahaha!",
     "points": 10
   },
   {
@@ -25,7 +25,7 @@
     "id": 4,
     "title": "Đố vui",
     "type": "challenge",
-    "content": "Hãy kể tên 3 loại trái cây trong 5 giây!",
+    "content": "Hãy kể tên 5 loại trái cây trong 10 giây!",
     "points": 10
   },
   {

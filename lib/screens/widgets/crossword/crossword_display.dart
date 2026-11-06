@@ -46,7 +46,10 @@ class CrosswordDisplay extends StatelessWidget {
         child: Center(
           child: Text(
             'Đang chuẩn bị ô chữ...',
-            style: TextStyle(color: Colors.white70, fontSize: 26),
+            style: TextStyle(
+              color: Colors.white70,
+              fontSize: 26,
+            ),
           ),
         ),
       );
@@ -79,6 +82,7 @@ class CrosswordDisplay extends StatelessWidget {
     final revealed = state.revealedCrosswordRows.toSet();
 
     final selectedIndex = state.selectedCrosswordRow;
+
     final hasSelectedRow = selectedIndex != null &&
         selectedIndex >= 0 &&
         selectedIndex < rows.length;
@@ -102,6 +106,7 @@ class CrosswordDisplay extends StatelessWidget {
                     letterSpacing: 2,
                   ),
                 ),
+
                 const SizedBox(height: 18),
 
                 // Bảng ô chữ
@@ -111,6 +116,7 @@ class CrosswordDisplay extends StatelessWidget {
                       final answer = normalizedAnswers[rowIndex];
                       final start = starts[rowIndex];
                       final isRevealed = revealed.contains(rowIndex);
+                      final isSelectedRow = selectedIndex == rowIndex;
 
                       return Row(
                         mainAxisSize: MainAxisSize.min,
@@ -123,26 +129,43 @@ class CrosswordDisplay extends StatelessWidget {
                           final isKeywordCell =
                               columnIndex == verticalColumn;
 
-                          // Mỗi vị trí đều có cùng kích thước.
                           return SizedBox(
                             width: cellSize,
                             height: cellSize,
                             child: Padding(
                               padding: const EdgeInsets.all(2),
                               child: isAnswerCell
-                                  ? Container(
+                                  ? AnimatedContainer(
+                                duration: const Duration(
+                                  milliseconds: 250,
+                                ),
                                 alignment: Alignment.center,
                                 decoration: BoxDecoration(
                                   color: isKeywordCell
                                       ? const Color(0xFFFFD166)
+                                      : isSelectedRow
+                                      ? const Color(0xFF8B6CFF)
                                       : const Color(0xFF39345D),
                                   borderRadius: BorderRadius.circular(6),
                                   border: Border.all(
                                     color: isKeywordCell
                                         ? const Color(0xFFFFE7A3)
+                                        : isSelectedRow
+                                        ? Colors.white
                                         : Colors.white54,
-                                    width: 1.5,
+                                    width: isSelectedRow ? 2.5 : 1.5,
                                   ),
+                                  boxShadow: isSelectedRow
+                                      ? [
+                                    BoxShadow(
+                                      color: const Color(
+                                        0xFFB69CFF,
+                                      ).withOpacity(0.8),
+                                      blurRadius: 10,
+                                      spreadRadius: 2,
+                                    ),
+                                  ]
+                                      : null,
                                 ),
                                 child: Text(
                                   isRevealed ||
@@ -216,7 +239,9 @@ class CrosswordDisplay extends StatelessWidget {
                                 ),
                               ),
                             ),
+
                             const SizedBox(width: 16),
+
                             Expanded(
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -229,6 +254,7 @@ class CrosswordDisplay extends StatelessWidget {
                                       fontWeight: FontWeight.w600,
                                     ),
                                   ),
+
                                   if (isRevealed) ...[
                                     const SizedBox(height: 6),
                                     Text(
@@ -243,6 +269,7 @@ class CrosswordDisplay extends StatelessWidget {
                                 ],
                               ),
                             ),
+
                             if (isRevealed)
                               const Icon(
                                 Icons.check_circle,
@@ -303,7 +330,9 @@ class CrosswordDisplay extends StatelessWidget {
                           letterSpacing: 2,
                         ),
                       ),
+
                       const SizedBox(height: 8),
+
                       Text(
                         state.crosswordKeywordRevealed
                             ? state.crosswordKeyword
@@ -316,7 +345,9 @@ class CrosswordDisplay extends StatelessWidget {
                                 return false;
                               }
 
-                              final answer = normalizedAnswers[rowIndex];
+                              final answer =
+                              normalizedAnswers[rowIndex];
+
                               final answerIndex =
                               keywordIndexes[rowIndex];
 
