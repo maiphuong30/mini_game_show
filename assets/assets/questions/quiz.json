@@ -67,7 +67,7 @@
       "Nhãn"
     ],
     "correctAnswer": "Măng cụt",
-    "points": 20
+    "points": 10
   },
   {
     "id": 6,
@@ -106,10 +106,36 @@
     "Lười"
   ],
   "correctAnswer": "Gấu túi",
-  "points": 20
+  "points": 10
   },
   {
-  "id": 9,
+    "id": 9,
+    "question": "Con vật nào KHÔNG là côn trùng?",
+    "image": null,
+    "answers": [
+      "Kiến",
+      "Giun đất",
+      "Bướm",
+      "Châu chấu"
+    ],
+    "correctAnswer": "Giun đất",
+    "points": 10
+  },
+  {
+    "id": 10,
+    "question": "Màu nào tạo thành khi trộn đỏ và xanh dương?",
+    "image": null,
+    "answers": [
+      "Xanh lá",
+      "Tím",
+      "Xanh dương",
+      "Cam"
+    ],
+    "correctAnswer": "Tím",
+    "points": 10
+  },
+  {
+  "id": 11,
   "question": "Điền vào chỗ trống: Uống nước nhớ ... ",
   "answers": [
     "Kẻ trồng cây",
@@ -121,51 +147,69 @@
   "points": 20
   },
   {
-    "id": 10,
+    "id": 12,
     "question": "Từ nào có nghĩa là con bạch tuộc?",
     "answers": [
-      "Dolphin",
       "Octopus",
-      "Penguin",
-      "Turtle"
+      "Crab",
+      "Chicken",
+      "Gorilla"
     ],
     "correctAnswer": "Octopus",
-    "points": 20
+    "points": 20,
+    "task": "Hãy nhảy theo trend động vật",
+    "bonusPoints": 20
   },
   {
-    "id": 11,
-    "question": "Con diều lớn nhất thế giới The Hope thuộc loại diều nào?",
+    "id": 13,
+    "question": "Từ tiếng Anh nào có nghĩa là \"Con voi\"?",
     "answers": [
-      "Diều rồng khung tre",
-      "Diều khí động học",
-      "Diều thể thao Delta nhiều dây",
-      "Diều sáo"
-    ],
-    "correctAnswer": "Diều khí động học",
-    "points": 20
-  },
-  {
-  "id": 11,
-  "question": "Từ tiếng Anh nào có nghĩa là \"Con voi\"?",
-  "answers": [
-    "Elephant",
-    "Tiger",
-    "Monkey",
-    "Rabbit"
-  ],
-  "correctAnswer": "Elephant",
-  "points": 20
-  },
-  {
-    "id": 12,
-    "question": "Tên nào sau đây KHÔNG thuộc bộ quyền căn bản Heian (Bình An) của Karate?",
-    "answers": [
-      "Heian Shodan",
-      "Heian Nidan",
-      "Heian Rokudan",
-      "Heian Sandan"
+      "Elephant",
+      "Tiger",
+      "Monkey",
+      "Rabbit"
     ],
     "correctAnswer": "Elephant",
+    "points": 20
+  },
+  {
+    "id": 14,
+    "question": "Điền vào chỗ trống: Góp ... thành bão",
+    "answers": [
+      "Mây",
+      "Gió",
+      "Mưa",
+      "Người"
+    ],
+    "correctAnswer": "Gió",
+    "points": 20
+  },
+  {
+    "id": 15,
+    "question": "Đây là cầu thủ nào?",
+    "image": "assets/images/quiz/Erling_Haaland.jpg",
+    "answers": [
+      "Tom Holland",
+      "Alf-Inge Haaland",
+      "Erling Haaland",
+      "Mai Phương"
+    ],
+    "correctAnswer": "Erling Haaland",
+    "points": 20,
+    "task": "Hãy tái hiện dáng đi của Haaland",
+    "bonusPoints": 20
+  },
+  {
+    "id": 16,
+    "question": "Bộ phim hoạt hình vẽ tay đầu tiên đạt giải Oscar?",
+    "image": "assets/images/quiz/vung_dat_linh_hon.jpg",
+    "answers": [
+      "Vùng đất linh hồn",
+      "Nàng tiên cá phương đông",
+      "Chuyến tàu vô tận",
+      "Vô diện"
+    ],
+    "correctAnswer": "Vùng đất linh hồn",
     "points": 20
   }
 ]
